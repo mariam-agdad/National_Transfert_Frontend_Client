@@ -1,0 +1,55 @@
+.custom-container-bg {
+    background-color: #f8f9fa;
+  }
+  
+  .custom-form-bg {
+    background-color: #343a40;
+  }
+  
+  .custom-font {
+    font-family: 'Monospace', Monaco; /* Remplacez par la police de caractères souhaitée */
+  }
+  
+
+  
+  
+  .custom-input {
+    border: 1px solid #ced4da; /* Ajoute une bordure grise aux champs de saisie */
+    border-radius: 0.25rem; /* Arrondit légèrement les coins des champs de saisie */
+  }
+  
+  .btn-animated {
+    transition: all 0.3s ease; /* Ajoute une transition animée à tous les styles de bouton */
+  }
+  
+  .btn-animated:hover {
+    transform: scale(1.1); /* Fait grossir le bouton lorsqu'il est survolé */
+  }
+  
+  .description {
+    font-size: 1.5em;
+    color: rgb(11, 2, 2);
+    margin-top: 20px;
+    font-family: "Cursive", Brush Script MT;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .danger-balance {
+    border: 2px solid  rgba(235, 156, 150, 0.875); /* Couleur de bordure orange */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px; /* Ajoute un espace intérieur */
+    text-align: center; /* Centre le texte */
+    font-size: 1.2em; /* Taille de police plus grande */
+    animation:  blinks 1s infinite alternate; /* Animation de clignotement */
+    font-family: 'Monospace', Monaco; 
+  
+    /* Ajoutez d'autres styles si nécessaire */
+  }
+
+
+  @keyframes blinks {
+    to {
+      background-color:  rgba(244, 191, 181, 0.875); /* Couleur de fond jaune clair pendant l'animation */
+    }
+  }
